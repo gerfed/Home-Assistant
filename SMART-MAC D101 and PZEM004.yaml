@@ -9,7 +9,7 @@ in file configuration.yaml
     - name: "Текущая нагрузка"
       unique_id: tekushaya_nagruzga_vt
       state_topic: "1694499064/W"
-      unit_of_measurement: "Wh"
+      unit_of_measurement: "W"
       icon: mdi:meter-electric
       device_class: energy
 
