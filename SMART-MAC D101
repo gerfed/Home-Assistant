@@ -18,3 +18,13 @@ in file configuration.yaml
       unit_of_measurement: "А"
       icon: mdi:meter-electric
       device_class: energy
+
+
+in visual card:
+
+entities:
+  - entity: sensor.sila_toka
+  - entity: sensor.napriazhenie_seti
+  - entity: sensor.tekushchaia_nagruzka_2
+title: Электроэнергия
+type: glance
