@@ -1,5 +1,6 @@
 in file configuration.yaml 
- 
+mqtt:
+  sensor: 
     - name: "Напряжение сети"
       state_topic: "1694499064/V"
       icon: mdi:meter-electric
