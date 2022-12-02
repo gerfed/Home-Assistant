@@ -29,3 +29,34 @@ entities:
   - entity: sensor.tekushchaia_nagruzka_2
 title: Электроэнергия
 type: glance
+
+or 
+
+type: gauge
+entity: sensor.napriazhenie_seti
+min: 0
+max: 280
+unit: V
+needle: true
+severity:
+  green: 0
+  yellow: 240
+  red: 249
+  
+  
+  
+or 
+
+
+type: gauge
+min: 0
+max: 70
+entity: sensor.sila_toka
+name: Сила тока
+unit: А
+severity:
+  green: 0
+  yellow: 60
+  red: 64
+needle: true
+
