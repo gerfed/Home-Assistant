@@ -1,0 +1,17 @@
+in file configuration.yaml 
+ 
+ - name: "Напряжение сети"
+      state_topic: "1694499064/V"
+      icon: mdi:meter-electric
+      unit_of_measurement: "В"
+
+    - name: "Текущая нагрузка"
+      unique_id: tekushaya_nagruzga_vt
+      state_topic: "1694499064/W"
+      unit_of_measurement: "Вт"
+      icon: mdi:meter-electric
+
+    - name: "Сила тока"
+      state_topic: "1694499064/A"
+      unit_of_measurement: "А"
+      icon: mdi:meter-electric
